@@ -1,0 +1,195 @@
+html {
+    font-size: 16px;
+    min-width: 350px;
+}
+
+.carta {
+    background-color: red;
+    height: 120px;
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url("img/fondo.png"); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .navbar-background {
+    background-image: url(img/slider3.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+} */
+.img-fondo {
+    position: relative;
+}
+
+.img-back {
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: rgb(10, 14, 26);
+}
+
+.title {
+    position: absolute;
+    bottom: 60%;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /* font-size: 2.5em; */
+}
+
+
+.ultimas-publicaciones {
+    /* background-color: #D2EAD4; */
+    background-color: #d2ead442;
+    padding: 3%;
+}
+
+
+footer {
+    background-color: #053641;
+    padding: 20px 20px 10px 20px;
+    color: rgb(224, 224, 224);
+}
+
+
+.card {
+    opacity: 0.93;
+}
+
+.footer-title {
+    width: 70%;
+    display: inline-block;
+}
+
+.footer-icons {
+    width: 29%;
+    display: inline-block;
+}
+
+.list-footer {
+    list-style: none;
+    font-size: 13px;
+}
+
+.list-footer-item {
+    font-size: 12x;
+    color: #999;
+    text-decoration: none;
+    display: block;
+}
+
+.icono {
+    font-size: 20px;
+}
+
+.scrollspy-example {
+    width: 100%;
+    height: 100%;
+    /* height: 315px; */
+    /* overflow: auto; */
+    overflow-x: scroll;
+    /* border: 5px solid red; */
+    display: flex;
+}
+
+.col-md-6 {
+    display: inline-block;
+    flex-wrap: nowrap;
+
+}
+
+.pagos {
+    text-align: center;
+    padding: 2%;
+}
+
+.pagos ul {
+    list-style: none;
+    color: #999;
+}
+
+.opc-pago {
+    /* background-color: #137b9250; */
+    box-shadow: 0px 0px 20px 3px #d2ead485;
+    ;
+}
+
+.ultimas {
+    /* height: 500px; */
+    background-color: aqua;
+}
+
+.ultimas h4 {
+    text-align: center
+}
+
+.card-boot {
+    width: 300px;
+}
+
+.card-text {
+    color: #999;
+}
+
+.btn-verMotos {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.financia {
+    list-style: none;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.list-sesion {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.list-sesion li:first-child {
+    border-right: #6c757d 1px solid;
+}
+
+.list-sesion a {
+    color: #6c757d;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.list-detalleProd{
+    list-style: none
+}
+
+.list-detalleProd span{
+    color: #6c757d;
+}
+
+.list-detalleProd li{
+    margin-top:15px
+}

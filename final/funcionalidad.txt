@@ -1,0 +1,15 @@
+Navegador ->
+
+* ver motos mustra el listado de productos publicados
+* Mi cuenta -> en este menu tenemos 2 opciones desplegables donde podemos:
+    1- Iniciar sesion.
+    2- Crear una cuenta.
+
+
+En la opcion iniciar sesion podremos acceder a nuestro cuenta, si nos logueamos correctamente el menu nav mostrara el nombre del usuario y el desplegable para esta cuenta donde el usuario registrado podra publicar un producto y cerrar su sesion. NO SE PUEDE PUBLICAR PRODUCTO SI NO SE INICIA SESION. 
+
+La opcion registrarse aun no esta en funcionamiento.
+
+
+
+

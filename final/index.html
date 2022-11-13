@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoloMotos</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="stilos.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container w-75">
+            <a class="navbar-brand" href="#"><u><b>Solo</b><i style="font-size: 22px">Motos</i></u></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="btbInicio">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a type="button" class="nav-link ver-productos" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop" id="publicarVehiculo">
+                            Ver motos
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="botonMiCuenta" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Mi cuenta
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="sesion">
+                            <li>
+                                <a type="button" class="dropdown-item" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdropSesion" id="botonEntrar">
+                                    Entrar
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" id="botonRegistrarse"><del>Registarse</del></a>
+                            </li>
+                            <li class="ocultar">
+                                <a type="button" class="dropdown-item" data-bs-target="#staticBackdropPublicar"
+                                    data-bs-toggle="modal" id="botonPublicar">
+                                    Publicar
+                                </a>
+                            </li>
+                            <li class="ocultar">
+                                <a type="button" class="dropdown-item" id="cerrarSesion">
+                                    Cerrar sesion
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="img-fondo">
+        <img src="img/motos/moto-paisaje.png" alt="" class="img-back" />
+        <h1 class="title px-3 text-center fs-1 text-uppercase">
+            La mejor manera de comprar tu siguiente moto
+        </h1>
+    </div>
+
+    <!-- ************************************************************************ -->
+    <!-- ************************************************************************ -->
+    <!-- ************************************************************************ -->
+    <hr />
+    <main class="container">
+        <div class="text-center text-uppercase m-4 p-3">
+            <h3>Comprar una moto de segunda mano nunca había sido tan fácil.</h3>
+        </div>
+
+        <section class="pagos row d-flex justify-content-around text-center">
+            <div class="col-12 col-md-5 m-3 p-4 opc-pago">
+                <h4>¿Como comprar?</h4>
+                <ul class="p-0">
+                    <li>Elige tu moto.</li>
+                    <li>Contacta con el vendedor.</li>
+                    <li>Realiza el pago.</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-5 m-3 p-4 opc-pago">
+                <h4>Opciones de pago.</h4>
+                <ul class="p-0">
+                    <li>Pago directamente al vendedor.</li>
+                    <li>Financiala con nosotros.</li>
+                </ul>
+            </div>
+            <p>
+                Si no podes pagar la totalidad de la moto elegida no te preocupes, te
+                ofecemos soluciones de financiación a tu medida.
+            </p>
+            <button type="button" class="btn btn-primary d-grid col-3 mx-auto my-4">
+                Conocer proceso de financiacion
+            </button>
+        </section>
+    </main>
+
+    <div class="ultimas-publicaciones">
+        <div class="text-center mb-5">
+            <h3>Ultimas publicaciones</h3>
+        </div>
+        <section class="m-2 row d-flex justify-content-around" id="ultimasPublicaciones">
+            <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/card.webp" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit
+                                longer.
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/card.webp" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit
+                                longer.
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/card.webp" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit
+                                longer.
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/card.webp" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a wider card with supporting text below as a natural
+                                lead-in to additional content. This content is a little bit
+                                longer.
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a type="button" class="btn btn-primary d-grid col-4 col-sm-3 col-lg-2 mx-auto mt-5 mb-2" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop" id="publicarVehiculo">
+            Ver mas
+        </a>
+    </div>
+
+    <section class="financiacion">
+        <p>Proceso de financiacion</p>
+        <span> Despreocupate que nosotros nos ocupamos de todo...</span>
+        <ul class="financia">
+            <li>Elige tu moto...</li>
+            <li>Calcula tu plan de financiacion perfecto</li>
+            <li>Envianos la documentacion necesaria</li>
+            <li>Recibela donde en tu domicilio</li>
+        </ul>
+    </section>
+
+    <!-- ************************************************************************ -->
+    <!-- ************************************************************************ -->
+    <!-- ************************************************************************ -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-around">
+                <h3 class="col-9">SoloMotos</h3>
+                <i class="bi bi-facebook icono col-1"></i>
+                <i class="bi bi-twitter icono col-1"></i>
+                <i class="bi bi-instagram icono col-1"></i>
+            </div>
+            <hr />
+            <div class="row d-flex justify-content-around">
+                <div class="col-6 col-md-3 col-lg-2">
+                    <ul class="list-footer">
+                        <li><b>SoloMotos</b></li>
+                        <a href="#" class="list-footer-item">Quienes Somos</a>
+                        <a href="#" class="list-footer-item">Como funciona</a>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-3 col-lg-2">
+                    <ul class="list-footer">
+                        <li><b>Soporte</b></li>
+                        <a href="#" class="list-footer-item">Preguntas Frecuentes</a>
+                        <a href="#" class="list-footer-item">Reglas de publicacion</a>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <ul class="list-footer">
+                        <li><b>Soporte</b></li>
+                        <a href="#" class="list-footer-item">Preguntas Frecuentes</a>
+                        <a href="#" class="list-footer-item">Reglas de publicacion</a>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <ul class="list-footer">
+                        <li><b>Soporte</b></li>
+                        <a href="#" class="list-footer-item">Preguntas Frecuentes</a>
+                        <a href="#" class="list-footer-item">Reglas de publicacion</a>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <ul class="list-footer">
+                        <li><b>Soporte</b></li>
+                        <a href="#" class="list-footer-item">Preguntas Frecuentes</a>
+                        <a href="#" class="list-footer-item">Reglas de publicacion</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <p class="text-center m-0">© - Pablo Sebastian Campos 2022</p>
+    </footer>
+    <!-- Modal Listado de motos -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-between">
+                    <div><button class="btn btn-danger" id="borrarFiltro">
+                            Borrar filtros
+                        </button></div>
+                    <div>
+                        <h5 class="modal-title" id="staticBackdropLabel">
+                            Motos disponibles
+                        </h5>
+                    </div>
+                    <div><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="p-2 container">
+                    <!-- <span class="text-center fs-5">Filtros</span> -->
+                    <form class="row" id="form-filtro">
+                        <div class="col-12 col-md-4">
+                            <label for="" class="mb-1">Marca</label>
+                            <select class="form-select" id="selectFiltroMarca">
+                                <option selected>Seleccione...</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <label for="" class="mb-1">Año</label>
+                            <section id="selectFiltroAnio" class="row">
+                                <div class="col-6">
+                                    <select class="form-select" id="anio-desde" aria-label="Default select example">
+                                        <!-- <option selected>Desde</option> -->
+                                    </select>
+                                </div>
+                                <div class="col-6">
+                                    <select class="form-select" id="anio-hasta" aria-label="Default select example">
+                                        <!-- <option selected>Hasta</option> -->
+                                    </select>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-12">
+                            <section class="row">
+                                <label for="" class="form-label">Precio</label>
+                                <div class="col-12 col-md-6">
+                                    <p>
+                                        Desde:<span for="inputPrecioDesde" id="labelPrecioDesde">
+                                            0</span>€
+                                    </p>
+                                    <input type="range" class="form-range" id="inputPrecioDesde" min="0" max="30000"
+                                        step="1000" value="0" />
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p>
+                                        Hasta:<span for="inputPrecioHasta" id="labelPrecioHasta">
+                                            50000</span>€
+                                    </p>
+                                    <input type="range" class="form-range" id="inputPrecioHasta" min="0" max="30000"
+                                        step="1000" value="50000" />
+                                </div>
+                            </section>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-body container w-75" id="listMoto">
+                    <div class="row d-flex justify-content-around" id="contenedor-cards">
+                        <!-- AQUI VAN LAS CARDS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal publicar motos -->
+    <div class="modal fade" id="staticBackdropPublicar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true" id="modalPublicar">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content w-50 mx-auto">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                        Publica tu anuncio
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="subir-img" class="container" id="formPublicar">
+                        <label for="">Datos del vehiculo</label>
+                        <section id="form-vehiculo" class="row mx-2">
+                            <div class="col-12">
+                                <label for="inputSelectEstilo" class="form-label">Estilo</label>
+                                <select id="inputSelectEstilo" class="form-select" name="tipo">
+                                    <option selected>Seleccione...</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="inputSelectMarca" class="form-label">Marca</label>
+                                <select id="inputSelectMarca" class="form-select" name="marca">
+                                    <option selected>Seleccione...</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="inputModelo" class="form-label">Modelo</label>
+                                <input type="text" class="form-control" id="inputModelo" name="modelo" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <label for="autoSizingInputGroup">Cilindrada</label>
+                                <div class="input-group">
+                                    <input type="number" class="form-control" id="autoSizingInputGroup"
+                                        name="cilindrada" />
+                                    <div class="input-group-text">CC</div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <label for="inputSelectAnio" class="form-label">Año</label>
+                                <select id="inputSelectAnio" class="form-select" name="anio">
+                                    <option selected>Seleccione...</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <label for="inputKilometros" class="form-label">Kilometros</label>
+                                <input type="number" class="form-control" id="inputKilometros" name="kilometros" />
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <label for="inputMarca" class="form-label">Carnet</label>
+                                <select id="inputMarca" class="form-select" name="carnet">
+                                    <option selected>Seleccione...</option>
+                                    <option>A1</option>
+                                    <option>A2</option>
+                                    <option>A</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <label for="inputPrecio" class="form-label">Precio</label>
+                                <input type="number" class="form-control" id="inputPrecio" name="precio" />
+                            </div>
+                            <div class="col-12 col-md-8">
+                                <label class="form-label" for="inputModelo">Añade fotos del vehiculo</label>
+                                <input type="file" class="form-control" id="inputGroupFile01" name="imagen" disabled />
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <label for="inputModelo" class="form-label col-8">Breve descripcion</label>
+                                    <span class="col-3" id="spanEscuchando">Dictado por voz</span>
+                                    <i class="bi bi-mic-mute-fill col-1" id="desactivado"></i>
+                                    <i class="bi bi-mic ri col-1 d-none" id="activado"></i>
+                                </div>
+
+                                <textarea class="form-control" aria-label="With textarea" rows="10" maxlength="300"
+                                    placeholder="maximo 300 caracteres" name="descripcion"></textarea>
+                            </div>
+                        </section>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                Cancelar
+                            </button>
+                            <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">
+                                Publicar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Inicio de sesion -->
+    <div class="modal fade" id="staticBackdropSesion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">¡Bienvenido!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                        id="cerrarVentanaSesion"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="formSesion">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Direccion de email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" name="email" />
+                            <div id="emailHelp" class="form-text">
+                                Nunca compartiremos su correo electrónico con nadie más.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" name="password"
+                                autocomplete="off" />
+                        </div>
+                        <span id="credencialesIncorrectas"></span>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="checkSesion" name="recordar" />
+                            <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" id="botonIniciarSesion">
+                            Iniciar sesion
+                        </button>
+                    </form>
+                    <!-- Button trigger modal -->
+                    <ul class="me-auto mb-2 mb-lg-0 row list-sesion justify-content-around">
+                        <li class="nav-item col-6">
+                            Recueprar contraseña
+                            <!-- <a type="button" class="nav-link" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdropRecuperarPass">
+                                Recueprar contraseña
+                            </a> -->
+                        </li>
+                        <li class="nav-item col-6">
+                            Registrarse
+                            <!-- <a type="button" class="nav-link" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdropRegistro">
+                                Registrarse
+                            </a> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Recuperar Contraseña-->
+    <!-- <div class="modal fade" id="staticBackdropRecuperarPass" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Modal Registrarse-->
+    <!-- <div class="modal fade" id="staticBackdropRegistro" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div id="modales"></div>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script>
+        //EJ: para el li de inicio que cierre al hacer click
+        const btnInicio = document.getElementById("btbInicio");
+        btnInicio.addEventListener("click", () => {
+            const myCollapse = document.getElementById("navbarSupportedContent");
+            const bsCollapse = new bootstrap.Collapse(myCollapse);
+            bsCollapse.hide();
+        });
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
