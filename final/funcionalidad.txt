@@ -1,3 +1,9 @@
+Al momento de querer iniciar sesion puede usar estos 2 usuarios:
+
+new Usuario("Administrador", "admin", "admin@admin.com", "admin")
+new Usuario("Pablo Sebastian", "Campos", "pablo.c1791@gmail.com", 1234")
+
+
 Navegador ->
 
 * ver motos mustra el listado de productos publicados
