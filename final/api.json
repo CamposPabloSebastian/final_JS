@@ -1,14 +1,14 @@
 [
     {"id":1,"marca":"YAMAHA", "modelo":"MT 125", "tipo":"Naked", "cilindrada":125, "anio":2015, "kilometros":3500, "carnet": "A", "comentario":"comentarios del vendedor", "precio": 5000, "img":"./img/motos/mt125-blue.jpg"},
-    {"id":1,"marca":"YAMAHA", "modelo":"MT 7", "tipo":"Naked", "cilindrada":700, "anio":2016, "kilometros":18000, "carnet": "A", "comentario": "comentarios del vendedor","precio": 5300, "img":"./img/motos/mt7-storm.jpg"},
-    {"id":1,"marca":"YAMAHA", "modelo":"MT 9", "tipo":"Naked", "cilindrada":900, "anio":2019, "kilometros":7500, "carnet": "A", "comentario":"comentarios del vendedor","precio": 13000, "img":"./img/motos/mt9-blue.jpg"},
-    {"id":1,"marca":"YAMAHA", "modelo":"MT 10", "tipo":"Naked", "cilindrada":1000, "anio":2022, "kilometros":12500, "carnet":"A", "comentario":"comentarios del vendedor", "precio":1500, "img":"./img/motos/mt-10.jpg"},
-    {"id":1,"marca":"HONDA", "modelo":"Africa twing", "tipo":"Trail", "cilindrada":1000, "anio":2017, "kilometros":9000, "carnet":"A", "comentario":"comentarios del vendedor", "precio":30000, "img":"./img/motos/africaTwin.jpg"},
-    {"id":1,"marca":"HONDA", "modelo":"Africa twing", "tipo":"Trail", "cilindrada":200, "anio":2018, "kilometros":4500, "carnet":"A", "comentario":"comentarios del vendedor", "precio":9500, "img":"./img/motos/africaTwin200.jpg"},
-    {"id":1,"marca":"HONDA", "modelo":"CB500F", "tipo":"Naked", "cilindrada":500, "anio":2016, "kilometros":7300, "carnet":"A", "comentario":"comentarios del vendedor", "precio":4300, "img":"./img/motos/CB500F.jpg"},
-    {"id":1,"marca":"HONDA", "modelo":"CB500R", "tipo":"Naked", "cilindrada":500, "anio":2019, "kilometros":7500, "carnet":"A", "comentario":"comentarios del vendedor", "precio":19000, "img":"./img/motos/CB500R.jpg"},
-    {"id":1,"marca":"HONDA", "modelo":"CB500X", "tipo":"Trail", "cilindrada":500, "anio":2020, "kilometros":5600, "carnet":"A", "comentario":"comentarios del vendedor", "precio":11500, "img":"./img/motos/CB500X.jpg"},
-    {"id":1,"marca":"KAWASAKY", "modelo":"Versys 650", "tipo":"Trail", "cilindrada":600, "anio":2021, "kilometros":7000, "carnet":"A", "comentario":"comentarios del vendedor", "precio":15500, "img":"./img/motos/versys650.png"},
-    {"id":1,"marca":"KAWASAKY", "modelo":"Ninja 1000", "tipo":"Racing", "cilindrada":1000, "anio":2007, "kilometros":6900, "carnet":"A", "comentario":"comentarios del vendedor", "precio":26500, "img":"./img/motos/ninja1000.jpg"},
-    {"id":1,"marca":"BMW", "modelo":"R 1250 GS", "tipo":"TraiL", "cilindrada":1250, "anio":2014, "kilometros":5600, "carnet":"A", "comentario":"comentarios del vendedor", "precio":5500, "img":"./img/motos/BMW-R-1250-GS.jpg"}
+    {"id":2,"marca":"YAMAHA", "modelo":"MT 7", "tipo":"Naked", "cilindrada":700, "anio":2016, "kilometros":18000, "carnet": "A", "comentario": "comentarios del vendedor","precio": 5300, "img":"./img/motos/mt7-storm.jpg"},
+    {"id":3,"marca":"YAMAHA", "modelo":"MT 9", "tipo":"Naked", "cilindrada":900, "anio":2019, "kilometros":7500, "carnet": "A", "comentario":"comentarios del vendedor","precio": 13000, "img":"./img/motos/mt9-blue.jpg"},
+    {"id":4,"marca":"YAMAHA", "modelo":"MT 10", "tipo":"Naked", "cilindrada":1000, "anio":2022, "kilometros":12500, "carnet":"A", "comentario":"comentarios del vendedor", "precio":1500, "img":"./img/motos/mt-10.jpg"},
+    {"id":5,"marca":"HONDA", "modelo":"Africa twing", "tipo":"Trail", "cilindrada":1000, "anio":2017, "kilometros":9000, "carnet":"A", "comentario":"comentarios del vendedor", "precio":30000, "img":"./img/motos/africaTwin.jpg"},
+    {"id":6,"marca":"HONDA", "modelo":"Africa twing", "tipo":"Trail", "cilindrada":200, "anio":2018, "kilometros":4500, "carnet":"A", "comentario":"comentarios del vendedor", "precio":9500, "img":"./img/motos/africaTwin200.jpg"},
+    {"id":7,"marca":"HONDA", "modelo":"CB500F", "tipo":"Naked", "cilindrada":500, "anio":2016, "kilometros":7300, "carnet":"A", "comentario":"comentarios del vendedor", "precio":4300, "img":"./img/motos/CB500F.jpg"},
+    {"id":8,"marca":"HONDA", "modelo":"CB500R", "tipo":"Naked", "cilindrada":500, "anio":2019, "kilometros":7500, "carnet":"A", "comentario":"comentarios del vendedor", "precio":19000, "img":"./img/motos/CB500R.jpg"},
+    {"id":9,"marca":"HONDA", "modelo":"CB500X", "tipo":"Trail", "cilindrada":500, "anio":2020, "kilometros":5600, "carnet":"A", "comentario":"comentarios del vendedor", "precio":11500, "img":"./img/motos/CB500X.jpg"},
+    {"id":10,"marca":"KAWASAKY", "modelo":"Versys 650", "tipo":"Trail", "cilindrada":600, "anio":2021, "kilometros":7000, "carnet":"A", "comentario":"comentarios del vendedor", "precio":15500, "img":"./img/motos/versys650.png"},
+    {"id":11,"marca":"KAWASAKY", "modelo":"Ninja 1000", "tipo":"Racing", "cilindrada":1000, "anio":2007, "kilometros":6900, "carnet":"A", "comentario":"comentarios del vendedor", "precio":26500, "img":"./img/motos/ninja1000.jpg"},
+    {"id":12,"marca":"BMW", "modelo":"R 1250 GS", "tipo":"TraiL", "cilindrada":1250, "anio":2014, "kilometros":5600, "carnet":"A", "comentario":"comentarios del vendedor", "precio":5500, "img":"./img/motos/BMW-R-1250-GS.jpg"}
 ]
